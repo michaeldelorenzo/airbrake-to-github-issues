@@ -23,7 +23,7 @@ f.appendTo("#issue-container");
 
 
 $("#create-github-issue").click(function() {
-  var data = {"token": token, "login": login, "title": title, "body": $("#body").val()}
+  var data = {"token": token, "login": login, "title": $("#title").val(), "body": $("#body").val()}
 
   // prevent accidental double submission
   button.attr("disabled", "disabled")
