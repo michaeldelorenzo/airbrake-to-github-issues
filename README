@@ -1,0 +1,16 @@
+A little DotJS script for sending Airbrake errors to Github issues. It is originally based off of https://gist.github.com/1152944.  I've added a little dialog to allow you to edit the title and add more details to the Github issue before sending it.
+
+######REQUIREMENTS######
+
+You need to have [dotjs][https://github.com/defunkt/dotjs] installed to use this script.
+
+######USAGE######
+
+Before using this script, you need to replace the placeholders below with your credentials.
+
+```javascript
+var login = "<GITHUB USER NAME>";
+var token = "<GITHUB TOKEN>";
+var REPO_USER = "<GITHUB REPO USER>";
+var REPO_NAME = "<GITHUB REPO NAME>";
+```
