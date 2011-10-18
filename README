@@ -2,7 +2,7 @@ A little DotJS script for sending Airbrake errors to Github issues. It is origin
 
 **REQUIREMENTS**
 
-You need to have [dotjs][https://github.com/defunkt/dotjs] installed to use this script.
+You need to have dotjs, https://github.com/defunkt/dotjs, installed to use this script.
 
 **USAGE**
 
